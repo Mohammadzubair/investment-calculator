@@ -1,0 +1,27 @@
+.mainInputFieldBox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
+
+  .inputLabel {
+    color: white;
+    margin-bottom: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .inputField {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #76c0ae;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: #c2e9e0;
+    font-size: 1rem;
+    &::placeholder {
+      color: white;
+    }
+  }
+}
